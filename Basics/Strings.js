@@ -13,3 +13,6 @@ console.log(subString);
 
 let splitArrayfromString=str.split(" "); //split string and store in array
 console.log(splitArrayfromString);
+
+console.log(str.length); //length of String
+
