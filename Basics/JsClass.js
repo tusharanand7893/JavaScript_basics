@@ -1,6 +1,5 @@
 //creating class with constructor and variables
-
-class Person{
+module.exports=class Person{
 
     
     get age(){
@@ -28,8 +27,11 @@ class Person{
 }
 
 //creating object of class and accessing value and functions
-let person= new Person("Tushar","Anand");
-console.log(person.fullname);
-console.log(person.location);
-console.log(person.age);
-console.log(person.fullnamefunction());
+
+//let person= new Person("Tushar","Anand");
+//console.log(person.fullname);
+//console.log(person.location);
+//console.log(person.age);
+//console.log(person.fullnamefunction());
+
+//-------------------// commented all this as we have exported this class and we will using these value in another file
